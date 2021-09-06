@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[3.17.3, )"
             },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.39.1, )"
+            },
             "Grpc.Net.Client": {
               "target": "Package",
               "version": "[2.39.0, )"

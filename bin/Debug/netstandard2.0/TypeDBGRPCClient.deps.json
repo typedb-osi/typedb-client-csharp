@@ -10,6 +10,7 @@
       "TypeDBGRPCClient/1.0.0": {
         "dependencies": {
           "Google.Protobuf": "3.17.3",
+          "Grpc.Core": "2.39.1",
           "Grpc.Net.Client": "2.39.0",
           "Grpc.Tools": "2.39.1",
           "NETStandard.Library": "2.0.3"
@@ -27,6 +28,18 @@
           "lib/netstandard2.0/Google.Protobuf.dll": {
             "assemblyVersion": "3.17.3.0",
             "fileVersion": "3.17.3.0"
+          }
+        }
+      },
+      "Grpc.Core/2.39.1": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.39.1",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.39.1.0"
           }
         }
       },
@@ -139,6 +152,13 @@
       "sha512": "sha512-vBUga9diexJgv9JPNYcs9AZ/5rPKpPCPSWqcqevF6e9KKzv0JwQdz58dSb7nm1xWeeCVB/Umr03cQ5ulF1RNLw==",
       "path": "google.protobuf/3.17.3",
       "hashPath": "google.protobuf.3.17.3.nupkg.sha512"
+    },
+    "Grpc.Core/2.39.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m92WTLEWMic5S+/bVq2Dc3ShLa29gU1NrU/5r2dB1Oxq+ByaxyEstx/DS/PAeIc9r/tJTyYhGFQhFr+ORXyRJw==",
+      "path": "grpc.core/2.39.1",
+      "hashPath": "grpc.core.2.39.1.nupkg.sha512"
     },
     "Grpc.Core.Api/2.39.1": {
       "type": "package",

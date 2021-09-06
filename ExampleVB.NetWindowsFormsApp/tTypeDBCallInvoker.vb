@@ -1,6 +1,6 @@
 ﻿Public Class TypeDBGrpcCallInvoker
-
     Inherits Grpc.Core.CallInvoker
+
 
     Public Overrides Function BlockingUnaryCall(Of TRequest As Class, TResponse As Class)(method As Grpc.Core.Method(Of TRequest, TResponse), host As String, options As Grpc.Core.CallOptions, request As TRequest) As TResponse
         Throw New NotImplementedException()

@@ -27,11 +27,7 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {
-              "D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\TypeDBGRPCClient\\TypeDBGRPCClient.csproj": {
-                "projectPath": "D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\TypeDBGRPCClient\\TypeDBGRPCClient.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

@@ -15,6 +15,41 @@
           "lib/netstandard2.0/Google.Protobuf.dll": {}
         }
       },
+      "Grpc.Core/2.39.1": {
+        "type": "package",
+        "dependencies": {
+          "Grpc.Core.Api": "2.39.1",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Grpc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/grpc_csharp_ext.x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/grpc_csharp_ext.x86.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Grpc.Core.Api/2.39.1": {
         "type": "package",
         "dependencies": {
@@ -167,6 +202,33 @@
         "lib/netstandard2.0/Google.Protobuf.dll",
         "lib/netstandard2.0/Google.Protobuf.pdb",
         "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
+    "Grpc.Core/2.39.1": {
+      "sha512": "m92WTLEWMic5S+/bVq2Dc3ShLa29gU1NrU/5r2dB1Oxq+ByaxyEstx/DS/PAeIc9r/tJTyYhGFQhFr+ORXyRJw==",
+      "type": "package",
+      "path": "grpc.core/2.39.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/Grpc.Core.targets",
+        "buildTransitive/net45/Grpc.Core.targets",
+        "grpc.core.2.39.1.nupkg.sha512",
+        "grpc.core.nuspec",
+        "lib/net45/Grpc.Core.dll",
+        "lib/net45/Grpc.Core.pdb",
+        "lib/net45/Grpc.Core.xml",
+        "lib/netstandard1.5/Grpc.Core.dll",
+        "lib/netstandard1.5/Grpc.Core.pdb",
+        "lib/netstandard1.5/Grpc.Core.xml",
+        "lib/netstandard2.0/Grpc.Core.dll",
+        "lib/netstandard2.0/Grpc.Core.pdb",
+        "lib/netstandard2.0/Grpc.Core.xml",
+        "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so",
+        "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so",
+        "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib",
+        "runtimes/win-x64/native/grpc_csharp_ext.x64.dll",
+        "runtimes/win-x86/native/grpc_csharp_ext.x86.dll"
       ]
     },
     "Grpc.Core.Api/2.39.1": {
@@ -580,6 +642,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Google.Protobuf >= 3.17.3",
+      "Grpc.Core >= 2.39.1",
       "Grpc.Net.Client >= 2.39.0",
       "Grpc.Tools >= 2.39.1",
       "NETStandard.Library >= 2.0.3"
@@ -627,6 +690,10 @@
           "Google.Protobuf": {
             "target": "Package",
             "version": "[3.17.3, )"
+          },
+          "Grpc.Core": {
+            "target": "Package",
+            "version": "[2.39.1, )"
           },
           "Grpc.Net.Client": {
             "target": "Package",

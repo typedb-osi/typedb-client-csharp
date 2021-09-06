@@ -5,9 +5,7 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": [
-      "D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\TypeDBGRPCClient\\TypeDBGRPCClient.csproj"
-    ]
+    "net5.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\Victor\\.nuget\\packages\\": {}
@@ -35,11 +33,7 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {
-            "D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\TypeDBGRPCClient\\TypeDBGRPCClient.csproj": {
-              "projectPath": "D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\TypeDBGRPCClient\\TypeDBGRPCClient.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -72,16 +66,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\TypeDBGRPCClient\\TypeDBGRPCClient.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\TypeDBGRPCClient\\TypeDBGRPCClient.csproj",
-      "targetGraphs": [
-        "net5.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

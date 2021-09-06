@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HqW0/nGZI3vz4eUTrQN+KixfxcjKh2pMc5HZpocn9mqC9Y1Ru6/PKhCFQY8IhOhzU8Ov+psfG0IKzu9wF/JYMg==",
-  "success": false,
+  "dgSpecHash": "uS3p0j9PhahvYUnGEzmhSR0TVe4NFFqeoQDch+2JTOypjOrrNpi6gmECj1aeKa3ceXKRHe2iymqBuT6vK28jow==",
+  "success": true,
   "projectFilePath": "D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\ExampleVB.NetWindowsFormsApp\\ExampleVB.NetWindowsFormsApp.vbproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\TypeDBGRPCClient\\TypeDBGRPCClient.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\TypeDBGRPCClient\\TypeDBGRPCClient.csproj",
-      "targetGraphs": [
-        "net5.0-windows7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
