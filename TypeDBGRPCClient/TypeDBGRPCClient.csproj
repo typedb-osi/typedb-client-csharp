@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Protos\cluster\BUILD" />
+    <None Remove="Protos\common\answer.proto" />
+    <None Remove="Protos\common\BUILD" />
+    <None Remove="Protos\common\concept.proto" />
+    <None Remove="Protos\common\logic.proto" />
+    <None Remove="Protos\common\options.proto" />
+    <None Remove="Protos\common\query.proto" />
+    <None Remove="Protos\common\session.proto" />
+    <None Remove="Protos\common\transaction.proto" />
+    <None Remove="Protos\core\BUILD" />
+    <None Remove="Protos\core\core_database.proto" />
+    <None Remove="Protos\core\core_service.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.17.3" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.39.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.39.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\common\concept.proto" GrpcServices="Client" ProtoRoot="Protos\" />
+    <Protobuf Include="Protos\common\answer.proto" GrpcServices="Client" ProtoRoot="Protos\" />
+    <Protobuf Include="Protos\common\logic.proto" GrpcServices="Client" ProtoRoot="Protos\" />
+    <Protobuf Include="Protos\common\options.proto" GrpcServices="Client" ProtoRoot="Protos\" />
+    <Protobuf Include="Protos\common\query.proto" GrpcServices="Client" ProtoRoot="Protos\" />
+    <Protobuf Include="Protos\common\session.proto" GrpcServices="Client" ProtoRoot="Protos\" />
+    <Protobuf Include="Protos\common\transaction.proto" GrpcServices="Client" ProtoRoot="Protos\" />
+    <Protobuf Include="Protos\core\core_database.proto" GrpcServices="Client" ProtoRoot="Protos\" />
+    <Protobuf Include="Protos\core\core_service.proto" GrpcServices="Client" ProtoRoot="Protos\" />
+  </ItemGroup>
+
+</Project>
