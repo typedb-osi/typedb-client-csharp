@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeDBGRPCClient", "TypeDBGRPCClient.csproj", "{4A9B2368-34D8-4D4D-960D-5D1DBB5C236A}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExampleVB.NetWindowsFormsApp", "VBWindowsFormsApp\ExampleVB.NetWindowsFormsApp.vbproj", "{10979EDB-6B47-447E-8827-A1C3058640D5}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExampleVB.NetWindowsFormsApp", "ExampleVB.NetWindowsFormsApp\ExampleVB.NetWindowsFormsApp.vbproj", "{10979EDB-6B47-447E-8827-A1C3058640D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XoYaCFdgdYOtYOZHOHifLm/A8q8cFurFCHY7DI1CjtxBLwEC3Kh9U30alNUkTLd4/Jx10itl0Ll3pf7CZXh+EQ==",
+  "dgSpecHash": "HqW0/nGZI3vz4eUTrQN+KixfxcjKh2pMc5HZpocn9mqC9Y1Ru6/PKhCFQY8IhOhzU8Ov+psfG0IKzu9wF/JYMg==",
   "success": false,
-  "projectFilePath": "D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\VBWindowsFormsApp\\ExampleVB.NetWindowsFormsApp.vbproj",
+  "projectFilePath": "D:\\FactEngine\\01-Product\\01-Products\\TypeDB-Client.Net\\ExampleVB.NetWindowsFormsApp\\ExampleVB.NetWindowsFormsApp.vbproj",
   "expectedPackageFiles": [],
   "logs": [
     {
