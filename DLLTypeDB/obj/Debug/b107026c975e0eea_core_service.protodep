@@ -1,0 +1,10 @@
+obj\Debug\core/CoreService.cs \
+obj\Debug\core/CoreServiceGrpc.cs: Protos/core/core_database.proto\
+ Protos/common/options.proto\
+ Protos/common/session.proto\
+ Protos/common/concept.proto\
+ Protos/common/answer.proto\
+ Protos/common/logic.proto\
+ Protos/common/query.proto\
+ Protos/common/transaction.proto\
+ Protos/core/core_service.proto

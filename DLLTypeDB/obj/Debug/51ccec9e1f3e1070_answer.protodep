@@ -1,0 +1,2 @@
+obj\Debug\common/Answer.cs: Protos/common/concept.proto\
+ Protos/common/answer.proto

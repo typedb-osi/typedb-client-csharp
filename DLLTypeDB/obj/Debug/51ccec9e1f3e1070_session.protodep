@@ -1,0 +1,2 @@
+obj\Debug\common/Session.cs: Protos/common/options.proto\
+ Protos/common/session.proto

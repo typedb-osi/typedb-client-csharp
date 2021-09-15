@@ -1,9 +1,0 @@
-D:\FactEngine\01-Product\01-Products\TypeDBGRPCClient\bin\Debug\netstandard2.0\TypeDBGRPCClient.deps.json
-D:\FactEngine\01-Product\01-Products\TypeDBGRPCClient\bin\Debug\netstandard2.0\TypeDBGRPCClient.dll
-D:\FactEngine\01-Product\01-Products\TypeDBGRPCClient\bin\Debug\netstandard2.0\TypeDBGRPCClient.pdb
-D:\FactEngine\01-Product\01-Products\TypeDBGRPCClient\obj\Debug\netstandard2.0\TypeDBGRPCClient.AssemblyInfoInputs.cache
-D:\FactEngine\01-Product\01-Products\TypeDBGRPCClient\obj\Debug\netstandard2.0\TypeDBGRPCClient.AssemblyInfo.cs
-D:\FactEngine\01-Product\01-Products\TypeDBGRPCClient\obj\Debug\netstandard2.0\TypeDBGRPCClient.csproj.CoreCompileInputs.cache
-D:\FactEngine\01-Product\01-Products\TypeDBGRPCClient\obj\Debug\netstandard2.0\TypeDBGRPCClient.dll
-D:\FactEngine\01-Product\01-Products\TypeDBGRPCClient\obj\Debug\netstandard2.0\TypeDBGRPCClient.pdb
-D:\FactEngine\01-Product\01-Products\TypeDBGRPCClient\obj\Debug\netstandard2.0\TypeDBGRPCClient.csprojAssemblyReference.cache

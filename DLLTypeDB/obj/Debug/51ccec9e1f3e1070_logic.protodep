@@ -1,0 +1,3 @@
+obj\Debug\common/Logic.cs: Protos/common/concept.proto\
+ Protos/common/answer.proto\
+ Protos/common/logic.proto

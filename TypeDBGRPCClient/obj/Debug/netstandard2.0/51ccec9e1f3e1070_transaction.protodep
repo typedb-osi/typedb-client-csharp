@@ -1,6 +1,0 @@
-obj\Debug\netstandard2.0\common/Transaction.cs: Protos/common/concept.proto\
- Protos/common/answer.proto\
- Protos/common/logic.proto\
- Protos/common/options.proto\
- Protos/common/query.proto\
- Protos/common/transaction.proto
